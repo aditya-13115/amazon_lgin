@@ -1,0 +1,38 @@
+body{
+    .login{ 
+        
+            background-color: grey;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .logo {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        object-fit: contain;
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .login_container >h1{
+        width: 300px;
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid lightgrey;
+        padding: 20px;
+    }
+    .login_container >h1{
+        font-weight: 500;
+        margin-bottom: 20px;
+
+    
+
+    }
+    
+   
+}
